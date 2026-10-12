@@ -1,0 +1,28 @@
+# MFQ Test Plan
+
+- M Models
+  - Business Flow
+  - Order State Machine
+  - Inventory State
+  - External Interaction
+  - Consistency Boundaries
+- F Functional
+  - Happy Path
+  - Inventory Sync
+    - Reserve
+    - Deduct
+    - Cancel/Restore
+    - Idempotency
+    - Out-of-order
+  - Boundary
+    - Zero Stock
+    - Flash Sale
+    - Split Shipment
+    - Return
+  - API Validation
+- Q Quality
+  - Performance
+  - Reliability
+  - Observability
+  - Security
+  - Recoverability
